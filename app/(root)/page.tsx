@@ -1,14 +1,14 @@
+import BookList from "@/components/BookList";
+import BookOverView from "@/components/BookOverview";
 import { Button } from "@/components/ui/button";
+import { sampleBooks } from "@/constants";
 
  const  Home=()=> {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-     <Button className=" bg-red-500">Hello world</Button>
-
-
-
-     
-    </div>
+    <>
+    <BookOverView {...sampleBooks}/>
+    <BookList title="Popular books"/>
+    </>
   );
 }
 export default Home

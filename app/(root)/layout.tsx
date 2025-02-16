@@ -1,13 +1,14 @@
+import Header from "@/components/Header"
 import { ReactNode } from "react"
 
 const RootLayout=({children}:{children:ReactNode})=>{
     return (
         <main className="root-container">
-            <div className=" mx-auto max-w-7xl">
-              <p className="text-center">Header</p>  
-                <div className=" mx-20">
+            <div className=" mx-auto lg:mx-20 mt-10">
+            <Header/>
+                <main className=" mt-20">
                     {children}
-                </div>
+                </main>
             </div>
         </main>
     )
