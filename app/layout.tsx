@@ -11,7 +11,7 @@ const BebasNeue = localFont({
 const imbPlexSans = localFont({
   src: [
     {  path: './fonts/IBMPlexSans-Bold.ttf', weight: '400', style:'noram' },
-    {  path: './fonts/IBMPlexSans.SemiBold.ttf', weight: '500', style:'noram' },
+    {  path: './fonts/IBMPlexSans-SemiBold.ttf', weight: '500', style:'noram' },
     {  path: './fonts/IBMPlexSans-Medium.ttf',  weight: '600', style:'noram'},
     {  path: './fonts/IBMPlexSans-Regular.ttf',  weight: '700',  style:'noram'},
   ],
