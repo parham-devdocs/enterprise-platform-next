@@ -7,7 +7,7 @@ import { sampleBooks } from "@/constants";
   return (
     <>
     <BookOverView {...sampleBooks[0]}  />
-    <BookList title="Popular books" />
+    <BookList books={sampleBooks} title="Popular Books" containerClassName="" />
     </>
   );
 }

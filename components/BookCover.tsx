@@ -9,8 +9,8 @@ const variantStyles:Record<BookCoverVariant,string>={
     wide:"book-cover_wide",
 }
 interface Props{
-    className:string
-    variant:BookCoverVariant
+    className?:string
+    variant?:BookCoverVariant
     coverUrl:string
 }
 
