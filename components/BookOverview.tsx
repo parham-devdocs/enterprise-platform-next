@@ -5,7 +5,7 @@ import BookCover from "./BookCover"
 const BookOverView=({title,author,genre,rating,totalCopies,availableCopies,description,coverUrl}:Book)=>{
     return(
         <section className="book-overview">
-<div className=" flex flex-1 flex-col gap-5">
+<div className=" flex flex-col gap-5">
     <h1>{title}</h1>
     <div className="book-info">
         <p>By <span className=" font-semibold text-light-200">{author}</span></p>
