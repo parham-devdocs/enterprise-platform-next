@@ -6,9 +6,10 @@ import { sampleBooks } from "@/constants";
  const  Home=()=> {
   return (
     <>
-    <BookOverView {...sampleBooks}/>
-    <BookList title="Popular books"/>
+    <BookOverView {...sampleBooks[0]}  />
+    <BookList title="Popular books" />
     </>
   );
 }
 export default Home
+
